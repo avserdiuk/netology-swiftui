@@ -38,7 +38,8 @@ struct LoginView: View {
             Button("Log in") {
                 print("click to log in btn")
             }
-            .frame(width: 350, height: 50)
+            .frame(maxWidth: .infinity)
+            .frame(height: 50)
 
             .foregroundColor(.white)
             .background(Image("blue_pixel")
