@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		415391132997CB70003ED931 /* Size&Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415391122997CB70003ED931 /* Size&Style.swift */; };
+		41CA187B2996C6E200E4B837 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CA187A2996C6E200E4B837 /* Post.swift */; };
+		41CA187D2996CB0B00E4B837 /* InfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CA187C2996CB0B00E4B837 /* InfoRow.swift */; };
+		41CA187F2996CE5A00E4B837 /* InfoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CA187E2996CE5A00E4B837 /* InfoDetails.swift */; };
 		41E4A9AD298BB0F3006BE9CA /* Netology_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E4A9AC298BB0F3006BE9CA /* Netology_SwiftUIApp.swift */; };
 		41E4A9AF298BB0F3006BE9CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E4A9AE298BB0F3006BE9CA /* ContentView.swift */; };
 		41E4A9B1298BB0F4006BE9CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E4A9B0298BB0F4006BE9CA /* Assets.xcassets */; };
 		41E4A9B4298BB0F4006BE9CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E4A9B3298BB0F4006BE9CA /* Preview Assets.xcassets */; };
+		41E4A9BB298BB4CC006BE9CA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E4A9BA298BB4CC006BE9CA /* LoginView.swift */; };
+		41E4A9BD298C22F7006BE9CA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E4A9BC298C22F6006BE9CA /* SettingsView.swift */; };
+		41E4A9BF298C2348006BE9CA /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E4A9BE298C2348006BE9CA /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		415391122997CB70003ED931 /* Size&Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Size&Style.swift"; sourceTree = "<group>"; };
+		41CA187A2996C6E200E4B837 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		41CA187C2996CB0B00E4B837 /* InfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRow.swift; sourceTree = "<group>"; };
+		41CA187E2996CE5A00E4B837 /* InfoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetails.swift; sourceTree = "<group>"; };
 		41E4A9A9298BB0F3006BE9CA /* Netology-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netology-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41E4A9AC298BB0F3006BE9CA /* Netology_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netology_SwiftUIApp.swift; sourceTree = "<group>"; };
 		41E4A9AE298BB0F3006BE9CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		41E4A9B0298BB0F4006BE9CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41E4A9B3298BB0F4006BE9CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41E4A9BA298BB4CC006BE9CA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		41E4A9BC298C22F6006BE9CA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		41E4A9BE298C2348006BE9CA /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +46,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		415391112997CB05003ED931 /* Modificators */ = {
+			isa = PBXGroup;
+			children = (
+				415391122997CB70003ED931 /* Size&Style.swift */,
+			);
+			path = Modificators;
+			sourceTree = "<group>";
+		};
+		41CA18792996C6D200E4B837 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41CA187A2996C6E200E4B837 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		41E4A9A0298BB0F3006BE9CA = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +83,14 @@
 			children = (
 				41E4A9AC298BB0F3006BE9CA /* Netology_SwiftUIApp.swift */,
 				41E4A9AE298BB0F3006BE9CA /* ContentView.swift */,
+				41E4A9BA298BB4CC006BE9CA /* LoginView.swift */,
+				41E4A9BC298C22F6006BE9CA /* SettingsView.swift */,
+				41E4A9BE298C2348006BE9CA /* InfoView.swift */,
+				41CA187C2996CB0B00E4B837 /* InfoRow.swift */,
+				41CA187E2996CE5A00E4B837 /* InfoDetails.swift */,
 				41E4A9B0298BB0F4006BE9CA /* Assets.xcassets */,
+				415391112997CB05003ED931 /* Modificators */,
+				41CA18792996C6D200E4B837 /* Model */,
 				41E4A9B2298BB0F4006BE9CA /* Preview Content */,
 			);
 			path = "Netology-SwiftUI";
@@ -138,7 +175,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				41E4A9AF298BB0F3006BE9CA /* ContentView.swift in Sources */,
+				415391132997CB70003ED931 /* Size&Style.swift in Sources */,
+				41CA187B2996C6E200E4B837 /* Post.swift in Sources */,
+				41E4A9BD298C22F7006BE9CA /* SettingsView.swift in Sources */,
 				41E4A9AD298BB0F3006BE9CA /* Netology_SwiftUIApp.swift in Sources */,
+				41CA187D2996CB0B00E4B837 /* InfoRow.swift in Sources */,
+				41E4A9BF298C2348006BE9CA /* InfoView.swift in Sources */,
+				41CA187F2996CE5A00E4B837 /* InfoDetails.swift in Sources */,
+				41E4A9BB298BB4CC006BE9CA /* LoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
