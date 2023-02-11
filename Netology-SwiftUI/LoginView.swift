@@ -15,9 +15,8 @@ struct LoginView: View {
         VStack(){
             Image("logo")
                 .resizable()
-                .frame(width: 150, height: 150)
-                .shadow(radius: 10)
-                .padding(.bottom, 60)
+                .frame(width: 100, height: 100)
+                .padding(.bottom, 120)
 
 
             VStack(spacing: -0.5){
@@ -33,17 +32,18 @@ struct LoginView: View {
 
                 .border(Color(UIColor.lightGray), width: 0.5)
                 .cornerRadius(10)
-                .padding(.bottom, 60)
+                .padding(.bottom, 8)
 
 
             Button("Log in") {
                 print("click to log in btn")
             }
-            .frame(width: 200, height: 44)
-            .cornerRadius(12)
+            .frame(width: 350, height: 50)
+
             .foregroundColor(.white)
             .background(Image("blue_pixel")
                 .resizable())
+            .cornerRadius(10)
 
 
         }
